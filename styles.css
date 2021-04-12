@@ -1,3 +1,11 @@
-span.word{
+span.word {
     color: red;
+}
+
+tbody.table_head {
+    color: rgb(47, 113, 151);
+}
+
+tbody.table_head2 {
+    color: rgb(165, 97, 241);
 }

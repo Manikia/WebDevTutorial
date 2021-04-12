@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Forms Demo </title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <!-- forms is like creating an email account
+    and having a username and password -->
+    <form action="/tacos">
+        <!-- /tacoes means theres a file called /tacos
+        and the action is looking for it when we submit -->
+        <p>
+            <label for="username"> Enter a username:</label>
+            <!-- since label has for username then it connects it to
+        the input with the id that has the same name -->
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <!-- placeholder specifies the placeholder text 
+        in the box before we type -->
+        <p>
+            <label for="password"> Enter a password </label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">Pick a color: </label>
+            <input id="color" type="color">
+        </p>
+        <input type="date">
+        <input type="file">
+        <input type="number" placeholder="enter a number" name="num">
+        <input type="time">
+        <button type="submit"> Submit </button>
+    </form>
+    <hr>
+    <button> Not inside form</button>
+    <form action="https://www.reddit.com/search">
+        <input placeholder="search reddit" type="text" name="q">
+        <button> Search Reddit </button>
+    </form>
+    <form action="https://www.google.com/search">
+        <input placeholder="search Google" type="text" name="q">
+        <button> Search Google </button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input placeholder="search youtube" type="text" name="search_query">
+        <button> Search YouTube </button>
+        <!-- you can also get rid of button and press enter and it processes -->
+    </form>
+    <h2> More Inputs </h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree"> I agree to the terms </label>
+        <p>
+            <label for="xs"> XS: </label>
+            <input type="radio" name="size" id="xs" value="XS">
+            <label for="s"> S: </label>
+            <input type="radio" name="size" id="s" value="S">
+            <label for="m"> M: </label>
+            <input type="radio" name="size" id="m" value="M">
+        </p>
+        <hr>
+        <p>
+            <!-- created a drop down menu to choose from -->
+            <label for="meal"> Please select an Entree </label>
+            <select name="meal" id="meal"> 
+            <option value = "fish"> Fish </option>
+            <option value = "veg" selected> Vegetarian </option>
+            <!-- selected means preselected -->
+            <option value = "steak"> Steak </option>
+
+        </select>
+        </p>
+        <p>
+            <label for="cheese"> Amount of cheese</label>
+            <input value="5" type="range" id="cheese" min="1" max="10" name="cheese level" step="7">
+            <!-- value leaves it at default -->
+        </p>
+        <p>
+            <label for="requests"> Any special requests? </label>
+            <br>
+            <textarea id="requests" rows="10" name="requests?" cols="40" placeholder="special requests"></textarea>
+        </p>
+        <button> Submit </button>
+    </form>
+</body>
+
+</html>

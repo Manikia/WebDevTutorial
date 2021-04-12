@@ -18,17 +18,99 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> chicken </title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> chicken table </title>
+    <link rel="stylesheet" href="styles.css">
 
-    <body>
-        <main>
+    <!-- creating a table for chickens -->
 
-        </main>
-    </body>
+</head>
+
+<body>
+    <h1> heaviest birds</h1>
+    <!-- td represents single cells -->
+    <table>
+        <!-- th defines a header -->
+        <thead>
+            <!-- thead makes it the head of the table -->
+            <tr>
+                <th>Animal</th>
+                <th>Average Mass</th>
+                <th>Maximal Mass</th>
+                <th>Flighted</th>
+            </tr>
+        </thead>
+        <tbody class="table_head">
+            <!-- tbody makes it the body of the table -->
+            <tr>
+                <td> Ostrich</td>
+                <td> 104kg (203 pounds) </td>
+                <td> 156.8 kg (346 pounds) </td>
+                <td> no </td>
+            </tr>
+            <!-- tr is a row of a table -->
+            <tr>
+                <td> Somali Ostrich</td>
+                <td> 90kg (200 pounds)</td>
+                <td> 130 (287 pounds)</td>
+                <td> no </td>
+            </tr>
+            <tr>
+                <td> Wild Turkey</td>
+                <td> 13.5kg (29.8 pouds</td>
+                <td> 39 kg (86 pounds) </td>
+                <td> yes </td>
+            </tr>
+        </tbody>
+        <!-- we dont have a footer but if we did we would have tfooter -->
+    </table>
+
+    <h2> V2 </h2>
+    <table>
+        <!-- th defines a header -->
+        <thead>
+            <!-- thead makes it the head of the table -->
+
+            <tr>
+                <th rowspan="2">Animal</th>
+                <!-- rowspan means it takes up as many rows told -->
+                <th colspan="2"> Average Mass </th>
+                <!-- colspan means it takes two columns -->
+                <th rowspan="2">Flighted</th>
+            </tr>
+            <!-- we are moving lb and kg under one columns -->
+            <tr>
+                <th> KG </th>
+                <th> LB </th>
+            </tr>
+        </thead>
+        <tbody class="table_head2">
+            <!-- tbody makes it the body of the table -->
+            <tr>
+                <td> Ostrich</td>
+                <td> 104kg </td>
+                <td> 203 pounds </td>
+                <td> no </td>
+            </tr>
+            <!-- tr is a row of a table -->
+            <tr>
+                <td> Somali Ostrich</td>
+                <td> 90kg </td>
+                <td> 200 pounds </td>
+                <td> no </td>
+            </tr>
+            <tr>
+                <td> Wild Turkey</td>
+                <td> 13.5kg </td>
+                <td> 29.8 pounds</td>
+                <td> yes </td>
+            </tr>
+        </tbody>
+        <!-- we dont have a footer but if we did we would have tfooter -->
+    </table>
+</body>
 
 </html>
