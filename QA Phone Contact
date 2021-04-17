@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T04:05:49.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Rl0y9NkCcvFhVeGLTrc_" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-17T04:12:48.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="J0Q_5GbSv3sGf_KslUky" version="14.6.1" type="github">
   <diagram id="YPimEQcifBhvJsU2D1ve" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -46,14 +46,88 @@
         <mxCell id="k1AdSzmKSKmH1ISqiOK7-4" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="470" y="280" width="40" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-5" target="k1AdSzmKSKmH1ISqiOK7-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="k1AdSzmKSKmH1ISqiOK7-5" value="Unlock by drawing &#39;L&#39; shape" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-7" target="k1AdSzmKSKmH1ISqiOK7-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k1AdSzmKSKmH1ISqiOK7-7" value="Swipe up and go to Search Bar" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="410" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-8" target="k1AdSzmKSKmH1ISqiOK7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k1AdSzmKSKmH1ISqiOK7-8" value="Search &#39;Contacts&#39; and tap on book icon" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="530" width="180" height="60" as="geometry" />
+          <mxGeometry x="200" y="530" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-9" value="A" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="630" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-10" target="k1AdSzmKSKmH1ISqiOK7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-10" value="A" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="490" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-11" target="k1AdSzmKSKmH1ISqiOK7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-11" value="Click on &#39;+&#39; to add entry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-12" target="k1AdSzmKSKmH1ISqiOK7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-12" value="Enter Information" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-13" target="k1AdSzmKSKmH1ISqiOK7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-13" value="Click &#39;Save&#39;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-14" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="117" y="759" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-15" value="Enter Information" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-16" target="k1AdSzmKSKmH1ISqiOK7-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-16" value="Input name of contact" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="760" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-17" target="k1AdSzmKSKmH1ISqiOK7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-17" value="Input Phone Number&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="860" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k1AdSzmKSKmH1ISqiOK7-18" target="k1AdSzmKSKmH1ISqiOK7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-18" value="Input email" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="950" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1AdSzmKSKmH1ISqiOK7-19" value="Return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
